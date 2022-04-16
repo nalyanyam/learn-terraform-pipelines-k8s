@@ -2,8 +2,8 @@ terraform {
   backend "remote" {
     organization = "home-nalyanyam"    
     workspaces {
-      #name = "learn-terraform-pipelines-k8s"
-      name = "gcp-workspace"
+      name = "learn-terraform-pipelines-k8s"
+      #name = "gcp-workspace"
     }
   }
 required_providers {
@@ -13,7 +13,7 @@ required_providers {
     }
 }
 
-required_version = ">= 1.1.0"
+#required_version = ">= 1.1.0"
 }
 
 
